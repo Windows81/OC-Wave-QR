@@ -1,0 +1,27 @@
+package com.hansecom.abt.presentation.screens.payment;
+
+import kotlin.Metadata;
+import kotlin.coroutines.Continuation;
+import kotlin.coroutines.jvm.internal.ContinuationImpl;
+import kotlin.coroutines.jvm.internal.DebugMetadata;
+
+@Metadata
+@DebugMetadata(c = "com.hansecom.abt.presentation.screens.payment.ChoosePaymentMethodViewModel", f = "ChoosePaymentMethodViewModel.kt", l = {86}, m = "loadCreditCardPaymentMethods")
+public final class ChoosePaymentMethodViewModel$loadCreditCardPaymentMethods$2 extends ContinuationImpl {
+    public Object C;
+    public /* synthetic */ Object D;
+    public final /* synthetic */ ChoosePaymentMethodViewModel E;
+    public int F;
+
+    /* JADX INFO: super call moved to the top of the method (can break code semantics) */
+    public ChoosePaymentMethodViewModel$loadCreditCardPaymentMethods$2(ChoosePaymentMethodViewModel choosePaymentMethodViewModel, Continuation continuation) {
+        super(continuation);
+        this.E = choosePaymentMethodViewModel;
+    }
+
+    public final Object x(Object obj) {
+        this.D = obj;
+        this.F |= Integer.MIN_VALUE;
+        return this.E.O(this);
+    }
+}

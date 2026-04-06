@@ -1,0 +1,89 @@
+package com.hansecom.abt.presentation.screens.home.faremedia.instituitions.search;
+
+import java.util.List;
+import kotlin.Metadata;
+import kotlin.Unit;
+import kotlin.coroutines.Continuation;
+import kotlin.coroutines.intrinsics.IntrinsicsKt;
+import kotlinx.coroutines.flow.Flow;
+import kotlinx.coroutines.flow.FlowCollector;
+
+@Metadata
+public final class InstitutionsSearchViewModel$1$invokeSuspend$$inlined$map$1 implements Flow<List<? extends Integer>> {
+
+    /* renamed from: z  reason: collision with root package name */
+    public final /* synthetic */ Flow f36880z;
+
+    public InstitutionsSearchViewModel$1$invokeSuspend$$inlined$map$1(Flow flow) {
+        this.f36880z = flow;
+    }
+
+    public Object a(final FlowCollector flowCollector, Continuation continuation) {
+        Object a2 = this.f36880z.a(new FlowCollector() {
+            /* JADX WARNING: Removed duplicated region for block: B:12:0x0031  */
+            /* JADX WARNING: Removed duplicated region for block: B:8:0x0023  */
+            /* Code decompiled incorrectly, please refer to instructions dump. */
+            public final java.lang.Object c(java.lang.Object r6, kotlin.coroutines.Continuation r7) {
+                /*
+                    r5 = this;
+                    boolean r0 = r7 instanceof com.hansecom.abt.presentation.screens.home.faremedia.instituitions.search.InstitutionsSearchViewModel$1$invokeSuspend$$inlined$map$1.AnonymousClass2.AnonymousClass1
+                    if (r0 == 0) goto L_0x0013
+                    r0 = r7
+                    com.hansecom.abt.presentation.screens.home.faremedia.instituitions.search.InstitutionsSearchViewModel$1$invokeSuspend$$inlined$map$1$2$1 r0 = (com.hansecom.abt.presentation.screens.home.faremedia.instituitions.search.InstitutionsSearchViewModel$1$invokeSuspend$$inlined$map$1.AnonymousClass2.AnonymousClass1) r0
+                    int r1 = r0.D
+                    r2 = -2147483648(0xffffffff80000000, float:-0.0)
+                    r3 = r1 & r2
+                    if (r3 == 0) goto L_0x0013
+                    int r1 = r1 - r2
+                    r0.D = r1
+                    goto L_0x0018
+                L_0x0013:
+                    com.hansecom.abt.presentation.screens.home.faremedia.instituitions.search.InstitutionsSearchViewModel$1$invokeSuspend$$inlined$map$1$2$1 r0 = new com.hansecom.abt.presentation.screens.home.faremedia.instituitions.search.InstitutionsSearchViewModel$1$invokeSuspend$$inlined$map$1$2$1
+                    r0.<init>(r5, r7)
+                L_0x0018:
+                    java.lang.Object r7 = r0.C
+                    java.lang.Object r1 = kotlin.coroutines.intrinsics.IntrinsicsKt.f()
+                    int r2 = r0.D
+                    r3 = 1
+                    if (r2 == 0) goto L_0x0031
+                    if (r2 != r3) goto L_0x0029
+                    kotlin.ResultKt.b(r7)
+                    goto L_0x0066
+                L_0x0029:
+                    java.lang.IllegalStateException r6 = new java.lang.IllegalStateException
+                    java.lang.String r7 = "call to 'resume' before 'invoke' with coroutine"
+                    r6.<init>(r7)
+                    throw r6
+                L_0x0031:
+                    kotlin.ResultKt.b(r7)
+                    kotlinx.coroutines.flow.FlowCollector r7 = r3
+                    java.util.List r6 = (java.util.List) r6
+                    java.lang.Iterable r6 = (java.lang.Iterable) r6
+                    java.util.ArrayList r2 = new java.util.ArrayList
+                    r4 = 10
+                    int r4 = kotlin.collections.CollectionsKt.x(r6, r4)
+                    r2.<init>(r4)
+                    java.util.Iterator r6 = r6.iterator()
+                L_0x0049:
+                    boolean r4 = r6.hasNext()
+                    if (r4 == 0) goto L_0x005d
+                    java.lang.Object r4 = r6.next()
+                    com.hansecom.mapi.models.Institution r4 = (com.hansecom.mapi.models.Institution) r4
+                    java.lang.Integer r4 = r4.a()
+                    r2.add(r4)
+                    goto L_0x0049
+                L_0x005d:
+                    r0.D = r3
+                    java.lang.Object r6 = r7.c(r2, r0)
+                    if (r6 != r1) goto L_0x0066
+                    return r1
+                L_0x0066:
+                    kotlin.Unit r6 = kotlin.Unit.f40552a
+                    return r6
+                */
+                throw new UnsupportedOperationException("Method not decompiled: com.hansecom.abt.presentation.screens.home.faremedia.instituitions.search.InstitutionsSearchViewModel$1$invokeSuspend$$inlined$map$1.AnonymousClass2.c(java.lang.Object, kotlin.coroutines.Continuation):java.lang.Object");
+            }
+        }, continuation);
+        return a2 == IntrinsicsKt.f() ? a2 : Unit.f40552a;
+    }
+}

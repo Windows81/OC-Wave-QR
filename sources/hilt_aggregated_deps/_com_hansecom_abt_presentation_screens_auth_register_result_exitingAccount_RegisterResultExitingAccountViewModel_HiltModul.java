@@ -1,0 +1,5 @@
+package hilt_aggregated_deps;
+
+public class _com_hansecom_abt_presentation_screens_auth_register_result_exitingAccount_RegisterResultExitingAccountViewModel_HiltModules_KeyModule {
+}
+}

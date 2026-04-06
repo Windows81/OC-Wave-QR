@@ -1,0 +1,4 @@
+package hilt_aggregated_deps;
+
+public class _com_hansecom_abt_presentation_screens_main_lock_LockViewModel_HiltModules_BindsModule {
+}

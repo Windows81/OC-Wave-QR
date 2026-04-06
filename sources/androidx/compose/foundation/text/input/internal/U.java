@@ -1,0 +1,9 @@
+package androidx.compose.foundation.text.input.internal;
+
+import android.view.inputmethod.DeleteGesture;
+
+public abstract /* synthetic */ class U {
+    public static /* bridge */ /* synthetic */ boolean a(Object obj) {
+        return obj instanceof DeleteGesture;
+    }
+}

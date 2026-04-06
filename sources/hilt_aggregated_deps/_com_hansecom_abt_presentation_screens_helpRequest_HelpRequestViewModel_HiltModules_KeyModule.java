@@ -1,0 +1,4 @@
+package hilt_aggregated_deps;
+
+public class _com_hansecom_abt_presentation_screens_helpRequest_HelpRequestViewModel_HiltModules_KeyModule {
+}

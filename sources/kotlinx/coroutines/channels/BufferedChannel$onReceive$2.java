@@ -1,0 +1,19 @@
+package kotlinx.coroutines.channels;
+
+import kotlin.Metadata;
+import kotlin.jvm.functions.Function3;
+import kotlin.jvm.internal.FunctionReferenceImpl;
+
+@Metadata
+public /* synthetic */ class BufferedChannel$onReceive$2 extends FunctionReferenceImpl implements Function3<BufferedChannel<?>, Object, Object, Object> {
+    public static final BufferedChannel$onReceive$2 I = new BufferedChannel$onReceive$2();
+
+    public BufferedChannel$onReceive$2() {
+        super(3, BufferedChannel.class, "processResultSelectReceive", "processResultSelectReceive(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;", 0);
+    }
+
+    /* renamed from: v */
+    public final Object d(BufferedChannel bufferedChannel, Object obj, Object obj2) {
+        return bufferedChannel.c1(obj, obj2);
+    }
+}

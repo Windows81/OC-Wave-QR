@@ -1,0 +1,28 @@
+package kotlin.annotation;
+
+import kotlin.Metadata;
+import kotlin.enums.EnumEntriesKt;
+
+@Metadata
+public enum AnnotationTarget {
+    CLASS,
+    ANNOTATION_CLASS,
+    TYPE_PARAMETER,
+    PROPERTY,
+    FIELD,
+    LOCAL_VARIABLE,
+    VALUE_PARAMETER,
+    CONSTRUCTOR,
+    FUNCTION,
+    PROPERTY_GETTER,
+    PROPERTY_SETTER,
+    TYPE,
+    EXPRESSION,
+    FILE,
+    TYPEALIAS;
+
+    static {
+        AnnotationTarget[] d2;
+        P = EnumEntriesKt.a(d2);
+    }
+}

@@ -1,0 +1,4 @@
+package hilt_aggregated_deps;
+
+public class _com_hansecom_abt_presentation_screens_home_barcode_BarcodeDisplayViewModel_HiltModules_KeyModule {
+}

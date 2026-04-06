@@ -1,0 +1,4 @@
+package hilt_aggregated_deps;
+
+public class _com_hansecom_abt_presentation_screens_main_debugMenu_DebugMenuViewModel_HiltModules_BindsModule {
+}

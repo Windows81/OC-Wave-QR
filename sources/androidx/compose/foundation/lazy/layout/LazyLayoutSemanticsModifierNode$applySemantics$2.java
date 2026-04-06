@@ -1,0 +1,23 @@
+package androidx.compose.foundation.lazy.layout;
+
+import kotlin.Metadata;
+import kotlin.jvm.functions.Function0;
+import kotlin.jvm.internal.Lambda;
+
+@Metadata
+public final class LazyLayoutSemanticsModifierNode$applySemantics$2 extends Lambda implements Function0<Float> {
+
+    /* renamed from: z  reason: collision with root package name */
+    public final /* synthetic */ LazyLayoutSemanticsModifierNode f4929z;
+
+    /* JADX INFO: super call moved to the top of the method (can break code semantics) */
+    public LazyLayoutSemanticsModifierNode$applySemantics$2(LazyLayoutSemanticsModifierNode lazyLayoutSemanticsModifierNode) {
+        super(0);
+        this.f4929z = lazyLayoutSemanticsModifierNode;
+    }
+
+    /* renamed from: b */
+    public final Float invoke() {
+        return Float.valueOf((float) (this.f4929z.O.a() - this.f4929z.O.c()));
+    }
+}

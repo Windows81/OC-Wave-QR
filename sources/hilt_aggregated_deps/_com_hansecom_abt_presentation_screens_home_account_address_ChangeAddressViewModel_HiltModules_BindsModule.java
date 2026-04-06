@@ -1,0 +1,4 @@
+package hilt_aggregated_deps;
+
+public class _com_hansecom_abt_presentation_screens_home_account_address_ChangeAddressViewModel_HiltModules_BindsModule {
+}

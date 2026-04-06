@@ -1,0 +1,16 @@
+package kotlinx.serialization.internal;
+
+import kotlin.Metadata;
+import kotlin.jvm.internal.DefaultConstructorMarker;
+import kotlin.jvm.internal.Intrinsics;
+import kotlinx.serialization.descriptors.SerialDescriptor;
+
+@Metadata
+public final class HashMapClassDesc extends MapLikeDescriptor {
+    /* JADX INFO: super call moved to the top of the method (can break code semantics) */
+    public HashMapClassDesc(SerialDescriptor serialDescriptor, SerialDescriptor serialDescriptor2) {
+        super("kotlin.collections.HashMap", serialDescriptor, serialDescriptor2, (DefaultConstructorMarker) null);
+        Intrinsics.i(serialDescriptor, "keyDesc");
+        Intrinsics.i(serialDescriptor2, "valueDesc");
+    }
+}

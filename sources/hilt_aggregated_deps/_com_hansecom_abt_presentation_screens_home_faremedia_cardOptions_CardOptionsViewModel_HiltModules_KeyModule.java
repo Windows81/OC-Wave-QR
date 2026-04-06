@@ -1,0 +1,4 @@
+package hilt_aggregated_deps;
+
+public class _com_hansecom_abt_presentation_screens_home_faremedia_cardOptions_CardOptionsViewModel_HiltModules_KeyModule {
+}

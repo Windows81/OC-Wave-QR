@@ -1,0 +1,25 @@
+package androidx.compose.material3;
+
+import androidx.compose.foundation.layout.RowScope;
+import androidx.compose.ui.Alignment;
+import androidx.compose.ui.Modifier;
+import kotlin.Metadata;
+
+@Metadata
+final class SingleChoiceSegmentedButtonScopeWrapper implements SingleChoiceSegmentedButtonRowScope, RowScope {
+
+    /* renamed from: a  reason: collision with root package name */
+    public final /* synthetic */ RowScope f11031a;
+
+    public Modifier a(Modifier modifier, float f2, boolean z2) {
+        return this.f11031a.a(modifier, f2, z2);
+    }
+
+    public Modifier b(Modifier modifier) {
+        return this.f11031a.b(modifier);
+    }
+
+    public Modifier d(Modifier modifier, Alignment.Vertical vertical) {
+        return this.f11031a.d(modifier, vertical);
+    }
+}
