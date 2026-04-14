@@ -74,7 +74,7 @@ const privateKeys = {
 };
 
 // Example usage
-const staticBarcodePayload = "abwAAwACEAAAAAAAIjCQcmmmj7xriRS8AAC+JkE/SOS7qGCy";
+const staticBarcodePayload = "abwAAwACEAAAAAAAIjCQc67676767676767+666/67676767";
 const keyVersion = 100; // Change this to the appropriate version
 const epochSecond = Date.now() / 1000;
 

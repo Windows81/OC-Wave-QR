@@ -1,3 +1,8 @@
+Refer to [`gen-qr.js`](./gen-qr.js) for a code snippet which aims to generate a QR payload which emulates what the app does.
+
+The content of `staticBarcodePayload` is kept per user account and can be found unencrypted in each QR code.
+---
+
 How I reached this point:
 
 1. Download Android package `com.octa.init` version 1.2.5.
