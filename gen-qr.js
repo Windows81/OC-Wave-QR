@@ -15,7 +15,7 @@ async function generateBarcodeData(staticBarcodePayload, keyVersion, epochSecond
 	const decodeArray = Uint8Array.from(atob(staticBarcodePayload), (c) => c.charCodeAt(0));
 
 	// Create a plaintext buffer in big-endian form
-    const plaintextBuffer = new ArrayBuffer(0x2a);
+	const plaintextBuffer = new ArrayBuffer(0x2a);
 	const plaintextBytes = new Uint8Array(plaintextBuffer);
 	const dataView = new DataView(plaintextBuffer);
 
